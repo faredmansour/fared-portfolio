@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect } from "react";
-import { ArrowUpRight, Github, Sparkles, Filter, X, ExternalLink, Code2, Brain, ChevronRight, RefreshCcw } from "lucide-react";
+import { ArrowUpRight, Github, Sparkles, Filter, X, ExternalLink, Code2, Brain, ChevronRight, RefreshCcw, Search, Cpu } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 import { motion, AnimatePresence } from "framer-motion";
 import { fadeIn, staggerContainer } from "../utils/animations";
@@ -60,6 +60,41 @@ const ProjectModal = ({ project, isOpen, onClose, t }) => {
                 </p>
               </div>
 
+              {/* Case Study Details */}
+              {project.caseStudy && (
+                <div className="space-y-8 mb-10">
+                  <div className="relative p-6 rounded-3xl bg-primary/5 border border-primary/10">
+                    <h4 className="text-[10px] uppercase font-black tracking-widest text-primary mb-3 flex items-center gap-2">
+                      <Search size={12} />
+                      {t('problem')}
+                    </h4>
+                    <p className="text-sm text-muted-foreground leading-relaxed italic">
+                      "{project.caseStudy.problem}"
+                    </p>
+                  </div>
+
+                  <div className="relative p-6 rounded-3xl bg-highlight/5 border border-highlight/10">
+                    <h4 className="text-[10px] uppercase font-black tracking-widest text-highlight mb-3 flex items-center gap-2">
+                      <Cpu size={12} />
+                      {t('solution')}
+                    </h4>
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      {project.caseStudy.solution}
+                    </p>
+                  </div>
+
+                  <div className="relative p-6 rounded-3xl bg-green-500/5 border border-green-500/10">
+                    <h4 className="text-[10px] uppercase font-black tracking-widest text-green-500 mb-3 flex items-center gap-2">
+                      <Sparkles size={12} />
+                      {t('impact')}
+                    </h4>
+                    <p className="text-sm text-muted-foreground leading-relaxed font-bold">
+                      {project.caseStudy.impact}
+                    </p>
+                  </div>
+                </div>
+              )}
+
               <div className="mb-10">
                 <h4 className="text-xs uppercase font-black tracking-[0.2em] text-foreground/50 mb-6 flex items-center gap-2">
                   <Code2 size={14} className="text-primary" />
@@ -116,18 +151,18 @@ const ProjectMatcher = ({ isOpen, onClose, projects, t, onResult }) => {
     1: {
       title: t('matcher_step1'),
       options: [
-        { id: 'Agriculture', label: t('domain_agri'), icon: '🌱' },
+        { id: 'Cloud', label: t('domain_agri'), icon: '☁️' },
         { id: 'Finance', label: t('domain_fin'), icon: '💰' },
         { id: 'Retail', label: t('domain_retail'), icon: '🛍️' },
-        { id: 'Healthcare', label: t('domain_health'), icon: '🏥' },
+        { id: 'Platform', label: t('domain_health'), icon: '🌐' },
       ]
     },
     2: {
       title: t('matcher_step2'),
       options: [
-        { id: 'Vision', label: t('sol_vision'), icon: '👁️' },
-        { id: 'Predictive', label: t('sol_predict'), icon: '📈' },
-        { id: 'Analysis', label: t('sol_dash'), icon: '📊' },
+        { id: 'Automation', label: t('sol_vision'), icon: '⚙️' },
+        { id: 'Cloud', label: t('sol_predict'), icon: '🚀' },
+        { id: 'Web', label: t('sol_dash'), icon: '💻' },
       ]
     }
   };
@@ -145,15 +180,21 @@ const ProjectMatcher = ({ isOpen, onClose, projects, t, onResult }) => {
   const matchProject = (finalChoices) => {
     setIsAnalyzing(true);
     setTimeout(() => {
-      // Basic matching logic based on tags and descriptions
+      // Logic: Match based on domain/solution and project tags/content
       const matched = projects.find(p => {
         const text = (p.title + p.description + p.tags.join(' ')).toLowerCase();
-        const dMatch = text.includes(finalChoices.domain.toLowerCase());
+        
+        // Define matching criteria
+        const dMatch = text.includes(finalChoices.domain.toLowerCase()) || 
+                      (finalChoices.domain === 'Platform' && (text.includes('community') || text.includes('platform'))) ||
+                      (finalChoices.domain === 'Cloud' && (text.includes('infrastructure') || text.includes('devops')));
+        
         const sMatch = text.includes(finalChoices.solution.toLowerCase()) || 
-                      (finalChoices.solution === 'Vision' && p.tags.includes('Computer Vision')) ||
-                      (finalChoices.solution === 'Analysis' && p.tags.includes('Power BI'));
+                      (finalChoices.solution === 'Automation' && (text.includes('ci/cd') || text.includes('github actions'))) ||
+                      (finalChoices.solution === 'Web' && (text.includes('stack') || text.includes('react')));
+
         return dMatch && sMatch;
-      }) || projects[0];
+      }) || projects.find(p => p.tags.includes('Featured')) || projects[0];
 
       onResult(matched);
       setIsAnalyzing(false);

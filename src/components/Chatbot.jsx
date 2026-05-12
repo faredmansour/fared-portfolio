@@ -8,7 +8,7 @@ export const Chatbot = () => {
   const portfolioData = usePortfolioData();
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState([
-    { type: 'bot', text: `Hi, I'm Mohamed's AI Assistant. Ask me anything about his skills, projects, or experience!` }
+    { type: 'bot', text: `Hi, I'm ${portfolioData.personal.name.split(' ')[0]}'s AI Assistant. Ask me anything about his skills, projects, or experience!` }
   ]);
   const [input, setInput] = useState('');
   const messagesEndRef = useRef(null);
@@ -30,20 +30,20 @@ export const Chatbot = () => {
 
     // Simple Rule-Based AI Logic
     setTimeout(() => {
-      let botReply = "I'm still learning! But you can check out Mohamed's projects, skills, and experience sections or contact him directly.";
+      let botReply = `I'm still learning! But you can check out ${portfolioData.personal.name.split(' ')[0]}'s projects, skills, and experience sections or contact him directly.`;
 
       if (userMsg.includes('skill') || userMsg.includes('know') || userMsg.includes('tech')) {
-        botReply = `Mohamed is highly skilled in: ${portfolioData.allSkills.slice(0, 5).join(', ')} and many more. He specializes in AI and Data Analysis.`;
+        botReply = `${portfolioData.personal.name.split(' ')[0]} is highly skilled in: ${portfolioData.allSkills.slice(0, 5).join(', ')} and many more. He specializes in DevOps and Full Stack Development.`;
       } else if (userMsg.includes('project') || userMsg.includes('work') || userMsg.includes('portfolio')) {
-        botReply = `Mohamed has worked on ${portfolioData.projects.length} amazing projects, including ${portfolioData.projects[0].title} and ${portfolioData.projects[1].title}.`;
+        botReply = `${portfolioData.personal.name.split(' ')[0]} has worked on ${portfolioData.projects.length} amazing projects, including ${portfolioData.projects[0].title} and ${portfolioData.projects[1].title}.`;
       } else if (userMsg.includes('contact') || userMsg.includes('email') || userMsg.includes('hire')) {
-        botReply = `You can reach Mohamed at ${portfolioData.personal.email} or connect with him on LinkedIn!`;
+        botReply = `You can reach ${portfolioData.personal.name.split(' ')[0]} at ${portfolioData.personal.email} or connect with him on LinkedIn!`;
       } else if (userMsg.includes('education') || userMsg.includes('study') || userMsg.includes('degree')) {
-        botReply = `Mohamed holds a B.Sc. in Agricultural Engineering and completed an intensive Applied AI & Data Analysis Training at the Digital Pioneers Initiative.`;
+        botReply = `${portfolioData.personal.name.split(' ')[0]} holds a B.Sc. in Telecommunications & Electronics Engineering and is currently pursuing a Software Development Diploma at the Digital Pioneers Initiative.`;
       } else if (userMsg.includes('hello') || userMsg.includes('hi ') || userMsg === 'hi') {
-        botReply = `Hello! How can I help you learn more about Mohamed's expertise today?`;
-      } else if (userMsg.includes('محمد') || userMsg.includes('mohamed') || userMsg.includes('name')) {
-        botReply = `Mohamed is a dedicated Applied AI and Data Analysis specialist bridging engineering principles and advanced data-driven solutions!`;
+        botReply = `Hello! How can I help you learn more about ${portfolioData.personal.name.split(' ')[0]}'s expertise today?`;
+      } else if (userMsg.includes('فريد') || userMsg.includes('fared') || userMsg.includes('name')) {
+        botReply = `${portfolioData.personal.name.split(' ')[0]} is a dedicated Backend & Cloud Engineer specializing in building scalable and automated software systems!`;
       }
 
       setMessages(prev => [...prev, { type: 'bot', text: botReply }]);

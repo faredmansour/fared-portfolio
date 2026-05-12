@@ -76,7 +76,7 @@ export const Contact = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "mohamed-wael-mohamed",
+      value: "fared-mansour-718324225",
       href: portfolioData.personal.linkedin,
     },
   ];

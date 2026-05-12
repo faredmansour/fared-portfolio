@@ -1,499 +1,459 @@
 export const portfolioDataEN = {
   sectionDescriptions: {
-    skills: "My technical arsenal is a carefully curated blend of data engineering, artificial intelligence, and software development tools. I continuously refine these skills to architect robust, scalable, and highly predictive systems tailored for complex business challenges.",
-    projects: "Below is a comprehensive showcase of my professional portfolio. Each case study represents a unique fusion of domain expertise and advanced technological application, from predictive analytics to automated computer vision.",
-    education: "A solid theoretical foundation paired with rigorous practical application. My academic journey has been defined by a relentless pursuit of engineering excellence and cutting-edge data science methodologies.",
-    certifications: "In the rapidly evolving landscape of AI and Data, continuous learning is non-negotiable. These professional validations reflect my commitment to mastering industry-standard tools and cloud architectures.",
-    services: "I bridge the gap between complex data and actionable business strategy. My services are designed to empower organizations through customized AI, deep analytical insights, and robust engineering solutions."
+    skills: "My technical arsenal is a carefully curated blend of DevOps practices, cloud infrastructure, and full stack development tools. I continuously refine these skills to architect robust, scalable, and highly available systems tailored for modern enterprise challenges.",
+    projects: "Below is a comprehensive showcase of my professional portfolio. Each case study represents a unique fusion of DevOps automation, cloud-native architecture, and full stack engineering — from CI/CD pipelines to production-grade web applications.",
+    education: "A solid theoretical foundation paired with rigorous practical application. My academic journey has been defined by a relentless pursuit of engineering excellence and cutting-edge software development methodologies.",
+    certifications: "In the rapidly evolving landscape of cloud and DevOps, continuous learning is non-negotiable. These professional validations reflect my commitment to mastering industry-standard tools, cloud platforms, and modern development practices.",
+    services: "I bridge the gap between development and operations. My services are designed to empower organizations through automated pipelines, scalable cloud infrastructure, and robust full stack engineering solutions."
   },
   personal: {
-    name: "Mohamed Wael",
-    title: "Applied Artificial Intelligence & Data Analyst",
-    email: "mohamedwael2077@gmail.com",
-    linkedin: "https://linkedin.com/in/mohamed-wael-mohamed-9772803a4",
-    github: "https://github.com/MohamedWael78",
+    name: "Fared Mansour",
+    title: "DevOps & Full Stack Engineer",
+    email: "faredmansour6@gmail.com",
+    linkedin: "https://linkedin.com/in/fared-mansour-718324225",
+    github: "https://github.com/faredmansour",
     avatar: "/profile-photo.jpg",
-    phone: "01018575140",
-    whatsapp: "https://wa.me/201018575140",
+    phone: "01098798893",
+    whatsapp: "https://wa.me/01098798893",
     perspectives: {
-      official: "I am a dedicated Applied AI and Data Analysis specialist with a foundational background in Agricultural Engineering from Mansoura University. My unique interdisciplinary perspective allows me to bridge the vast gap between traditional engineering principles and advanced, data-driven software solutions. \n\nRecently, I completed a rigorous, nine-month intensive training program in Applied Artificial Intelligence and Data Analysis through the prestigious Digital Pioneers Initiative (in collaboration with MCIT and the Military Academy). Throughout this program, I honed my expertise in machine learning, deep neural networks, and cloud technologies.",
-      tech: "Input Data: [B.Sc. AgriEng + 9mo Intensive AI Residency]. Stack: {Python, Scikit-Learn, TensorFlow, FastAPI, Azure}. Core Competencies: [Supervised Learning, Neural Architecture Design, Data Pipelining]. \n\nI treat data as a high-fidelity sensor for systemic reality. My workflow prioritizes mathematical validation and scalable model deployment. Currently focusing on the deployment of Agentic AI systems to optimize complex operational environments.",
-      story: "My journey started in the fields of Mansoura, understanding the physical mechanics of Agricultural Engineering. But I realized that the real bridge to the future wasn't just mechanical—it was mathematical. \n\nI pivoted to AI not just to write code, but to build 'digital brains' that solve real-world problems. From designing smart irrigation systems to predicting customer churn, I am driven by the transformation of raw, chaotic data into clear, actionable intelligence."
+      official: "I am a Backend & Cloud Engineer with a strong foundation in building scalable web applications and cloud-native systems. I have extensive experience in Node.js, .NET Web API, SQL databases, and RESTful API development. My hands-on expertise includes AWS, Docker, Kubernetes, Terraform, and CI/CD pipelines. I am passionate about problem-solving, system design, and building reliable backend services that scale in fast-paced environments.",
+      tech: "Stack: {React.js, Node.js, Express.js, Python, FastAPI, Docker, Kubernetes, Jenkins, GitHub Actions, Terraform, AWS, Azure}. Core Competencies: [CI/CD Automation, Container Orchestration, Full Stack Development, Infrastructure as Code, Cloud Architecture].\n\nI treat infrastructure as code and deployments as a science. My workflow prioritizes automation, observability, and zero-downtime releases. Currently focusing on building cloud-native microservices and GitOps-driven deployment workflows.",
+      story: "My journey started with a passion for building things that work reliably at scale. I realized early on that great software is not just about writing code — it's about how that code gets built, tested, deployed, and monitored.\n\nI dove deep into DevOps not just to automate pipelines, but to build engineering cultures where delivery is fast, safe, and repeatable. From containerizing legacy apps to architecting full stack platforms from scratch, I am driven by the intersection of development excellence and operational stability."
     },
     metrics: [
-      { label: "Models Trained", value: "24", suffix: "+" },
-      { label: "Data points Cleaned", value: "1.2", suffix: "M+" },
-      { label: "Predictive Precision", value: "98", suffix: "%" }
+      { label: "Pipelines Deployed", value: "30", suffix: "+" },
+      { label: "Services Containerized", value: "50", suffix: "+" },
+      { label: "System Uptime", value: "99.9", suffix: "%" }
     ],
     services: [
       {
-        title: "Predictive AI Solutions",
-        description: "Developing custom machine learning models to forecast trends, automate complex decision-making, and unlock hidden opportunities in your data.",
-        icon: "BrainCircuit",
-        features: ["Classification & Regression", "Neural Network Design", "Time-Series Forecasting"]
-      },
-      {
-        title: "Advanced Data Visualization",
-        description: "Crafting interactive Power BI and Tableau dashboards that transform chaotic datasets into clear, actionable visual narratives for stakeholders.",
-        icon: "BarChart3",
-        features: ["Automated Reporting", "KPI Tracking", "Real-time Analytics"]
-      },
-      {
-        title: "End-to-End Data Engineering",
-        description: "Architecting robust data pipelines and automated scraping systems to ensure your data is clean, structured, and ready for advanced analysis.",
-        icon: "Database",
-        features: ["ETL Pipelining", "Web Scraping", "SQL Database Design"]
-      },
-      {
-        title: "Smart Engineering Systems",
-        description: "Merging agricultural engineering principles with AI to develop automated monitoring, smart irrigation, and precision operative systems.",
+        title: "CI/CD Pipeline Automation",
+        description: "Designing and implementing end-to-end CI/CD pipelines that automate testing, building, and deployment to accelerate software delivery with confidence.",
         icon: "Cpu",
-        features: ["IoT Integration", "Process Automation", "System Optimization"]
+        features: ["GitHub Actions", "Jenkins Pipelines", "Automated Testing"]
       },
       {
-        title: "Computer Vision Systems",
-        description: "Implementing advanced image recognition and object detection models for automated monitoring, quality control, and visual inspection.",
-        icon: "Eye",
-        features: ["Object Detection", "Image Classification", "Real-time Monitoring"]
+        title: "Cloud Infrastructure (IaC)",
+        description: "Provisioning and managing scalable cloud infrastructure on AWS and Azure using Terraform and Ansible for repeatable, version-controlled environments.",
+        icon: "Cloud",
+        features: ["Terraform & Ansible", "AWS & Azure", "Auto-scaling"]
       },
       {
-        title: "Big Data & Automation",
-        description: "Scaling data solutions for massive datasets and automating repetitive workflows to save time and eliminate human error in processing.",
+        title: "Full Stack Development",
+        description: "Building modern, responsive web applications from front-end to back-end using React.js, Node.js, and RESTful APIs with a focus on performance and scalability.",
         icon: "Layers",
-        features: ["Workflow Automation", "Large-scale Processing", "Error Reduction"]
+        features: ["React.js & Next.js", "Node.js & Express", "REST APIs"]
+      },
+      {
+        title: "Containerization & Orchestration",
+        description: "Containerizing applications with Docker and orchestrating them at scale with Kubernetes for high availability, self-healing deployments.",
+        icon: "Database",
+        features: ["Docker & Compose", "Kubernetes (K8s)", "Helm Charts"]
+      },
+      {
+        title: "Monitoring & Observability",
+        description: "Implementing comprehensive monitoring stacks with Prometheus, Grafana, and the ELK Stack to provide deep visibility into system health and performance.",
+        icon: "BarChart3",
+        features: ["Prometheus & Grafana", "ELK Stack", "Alerting Systems"]
+      },
+      {
+        title: "DevSecOps & Security",
+        description: "Integrating security practices directly into the development pipeline with automated vulnerability scanning, secrets management, and compliance auditing.",
+        icon: "Eye",
+        features: ["Vulnerability Scanning", "Secrets Management", "Access Control"]
       }
     ]
   },
   skills: [
     { 
-      category: "AI & Machine Learning", 
+      category: "Cloud & DevOps", 
       items: [
-        { name: "Machine Learning", description: "Designing predictive models that identify patterns and automate decision-making processes." },
-        { name: "Deep Learning", description: "Architecting multi-layered neural networks for computer vision and advanced NLP tasks." },
-        { name: "TensorFlow", description: "Comprehensive open-source platform for training and deploying large-scale neural models." },
-        { name: "Keras", description: "High-level API designed to facilitate rapid prototyping and testing of deep learning architectures." }
+        { name: "AWS", description: "Deploying and managing cloud infrastructure, serverless functions, and storage on Amazon Web Services." },
+        { name: "Docker", description: "Containerizing applications for consistent, portable, and isolated deployment environments." },
+        { name: "Kubernetes", description: "Orchestrating containerized workloads for auto-scaling, self-healing, and high-availability deployments." },
+        { name: "CI/CD Pipelines", description: "Automating build, test, and deployment workflows with Jenkins, GitLab CI, and GitHub Actions." },
+        { name: "Terraform", description: "Infrastructure as Code tool for provisioning and managing cloud resources in a declarative way." },
+        { name: "Ansible", description: "Agentless automation tool for configuration management, app deployment, and task orchestration." }
       ] 
     },
     { 
-      category: "Programming & Frameworks", 
+      category: "Tools & Security", 
       items: [
-        { name: "Python", description: "Universal language for AI development, data automation, and back-end integration." },
-        { name: "Scikit-Learn", description: "The industry standard for implementing traditional machine learning algorithms and pipelines." },
-        { name: "SQL", description: "Database management system for architecting and querying complex data structures." },
-        { name: "FastAPI", description: "Modern, high-performance web framework for deploying scalable AI microservices." },
-        { name: "Pandas", description: "Essential tool for structured data frames, manipulation, and advanced analytical tasks." },
-        { name: "NumPy", description: "Fundamental library for large-scale numerical computing and array manipulation." }
+        { name: "Git & GitHub", description: "Version control and collaboration platform for tracking changes and managing codebases at scale." },
+        { name: "JWT Authentication", description: "Secure, stateless token-based authentication for protecting APIs and user sessions." },
+        { name: "Linux & Bash", description: "Linux system administration, Bash scripting, and user/permission management for server environments." }
       ] 
     },
     { 
-      category: "Cloud", 
+      category: "Backend & Databases", 
       items: [
-        { name: "Azure Cloud", description: "Deploying enterprise AI solutions and managing virtual machines on Microsoft's cloud infrastructure." },
-        { name: "AWS Cloud", description: "Leveraging distributed computing and S3 storage for resilient data science architectures." }
+        { name: "Node.js", description: "Event-driven runtime for building scalable, high-performance backend services and APIs." },
+        { name: "Express.js", description: "Minimal and flexible Node.js framework for building RESTful APIs and web applications." },
+        { name: "RESTful APIs", description: "Designing and consuming stateless, resource-oriented APIs following REST architectural principles." },
+        { name: "PostgreSQL", description: "Advanced open-source relational database for complex queries and transactional data integrity." },
+        { name: "MongoDB", description: "Document-oriented NoSQL database for flexible, schema-less, and high-throughput data storage." }
       ] 
     },
     { 
-      category: "Data Visualization", 
+      category: "Frontend", 
       items: [
-        { name: "Power BI", description: "Advanced business intelligence tool for crafting interactive dashboards and data stories." },
-        { name: "Tableau", description: "Dynamic visualization platform for exploratory data analysis and real-time insights." },
-        { name: "Excel", description: "Standard tool for quantitative data organization, advanced formulas, and pivot reporting." }
+        { name: "React.js", description: "Component-based UI library for building fast, scalable, and modern single-page applications." },
+        { name: "HTML5 & CSS3", description: "Semantic markup and modern styling for accessible, responsive, and visually rich interfaces." },
+        { name: "Responsive Design", description: "Crafting layouts that adapt seamlessly to all screen sizes and device types." }
       ] 
     },
     { 
-      category: "Analysis", 
+      category: "Languages", 
       items: [
-        { name: "SPSS", description: "Specialized statistical software for deep data mining and complex social science research." },
-        { name: "Power BI", description: "Integrating multi-source data to perform real-time operational and strategic analysis." },
-        { name: "Tableau", description: "Transforming raw analytical results into actionable visual intelligence for decision makers." },
-        { name: "Excel", description: "Power Query and Pivot analysis for rapid data cleaning and localized financial modeling." }
+        { name: "JavaScript (ES6+)", description: "Modern JavaScript for building dynamic, interactive, and high-performance web applications." },
+        { name: "Python", description: "Versatile language for backend development, scripting, automation, and AI integration." },
+        { name: "SQL", description: "Designing and querying relational databases for structured data management and reporting." },
+        { name: "C++", description: "Systems-level programming language used for performance-critical applications and algorithms." }
       ] 
     }
   ],
-  allSkills: ["SQL", "Python", "Machine Learning", "Deep Learning", "Power BI", "Tableau", "AWS Cloud", "Azure Cloud", "FastAPI", "NumPy", "Pandas", "TensorFlow", "Pytorch", "Keras", "Scikit-Learn"],
+  allSkills: ["JavaScript", "Python", "SQL", "React.js", "Node.js", "Express.js", "MongoDB", "PostgreSQL", "Docker", "Kubernetes", "AWS", "Azure", "Terraform", "Ansible", "CI/CD", "Git"],
+  radarData: [
+    { subject: 'Full Stack Dev', A: 90, fullMark: 100 },
+    { subject: 'DevOps & CI/CD', A: 88, fullMark: 100 },
+    { subject: 'Cloud (AWS/Azure)', A: 85, fullMark: 100 },
+    { subject: 'Containerization', A: 87, fullMark: 100 },
+    { subject: 'Backend APIs', A: 92, fullMark: 100 },
+    { subject: 'Security', A: 83, fullMark: 100 },
+  ],
   projects: [
     {
-      title: "Saudi Dialect Sentiment Analysis",
-      description: "Developed an advanced Natural Language Processing (NLP) model trained specifically on a vast corpus of Saudi Arabian dialect data. The goal was to accurately predict user sentiment from localized textual inputs. Built using Deep Learning architectures, specifically LSTM and Transformer models, and integrated seamlessly into a responsive web application for real-time inference.",
-      image: "https://images.unsplash.com/photo-1549692520-acc6669e2f0c?auto=format&fit=crop&q=80&w=800",
-      tags: ["Deep Learning", "NLP", "Python", "TensorFlow"],
+      title: "AI-Driven Full-Stack Capstone Project",
+      description: "Designed and deployed a robust full-stack web application using the MERN stack (MongoDB, Express, React, Node.js) integrated with AI-driven automation features. Implemented CI/CD pipelines with Docker for containerization and managed cloud deployment via AWS. Secured the application with JWT-based authentication and advanced security protocols.",
+      image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&q=80&w=800",
+      tags: ["MERN Stack", "Docker", "AWS", "JWT"],
       link: "#",
-      github: "https://github.com/MohamedWael78"
+      github: "https://github.com/faredmansour",
+      caseStudy: {
+        problem: "The team needed a scalable full-stack application that integrates AI-driven analytics while maintaining secure access and automated deployment workflows.",
+        solution: "Built a MERN stack application with AI automation features, containerized with Docker, and deployed on AWS with a full CI/CD pipeline.",
+        impact: "Delivered a production-ready platform with zero-downtime deployments, JWT-secured APIs, and AI-powered data insights for end users."
+      }
     },
     {
-      title: "Real-time Defect Detection",
-      description: "Engineered and implemented a highly robust Computer Vision system designed to detect manufacturing defects on high-speed assembly lines in real-time. By leveraging customized YOLOv8 models optimized for edge device deployment, the system achieved a remarkable 98% accuracy, drastically reducing human error in quality assurance.",
-      image: "/assets/defect-detection-mockup.png",
-      tags: ["Computer Vision", "OpenCV", "YOLOv8", "Machine Learning"],
+      title: "National Students Community Platform",
+      description: "Engineered a large-scale web platform connecting middle and high school students across Egypt to share knowledge, collaborate on learning, and participate in educational and cultural challenges. Built with Node.js RESTful APIs, SQL relational database, and role-based access control supporting users across multiple governorates.",
+      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=800",
+      tags: ["Node.js", "SQL", "REST API", "JWT"],
       link: "#",
-      github: "https://github.com/MohamedWael78"
+      github: "https://github.com/faredmansour",
+      caseStudy: {
+        problem: "Egyptian students lacked a unified platform for collaborative learning, educational challenges, and knowledge sharing across different governorates.",
+        solution: "Built backend RESTful APIs using Node.js and SQL with role-based access control, supporting discussions, challenges, and volunteering modules.",
+        impact: "Delivered a scalable platform designed to handle large-scale users across multiple governorates, enabling educational and cultural collaboration nationwide."
+      }
     },
     {
-      title: "Retail Sales Forecasting AI",
-      description: "Designed a comprehensive, end-to-end data pipeline that ingests years of historical retail data. Utilizing advanced predictive algorithms including XGBoost and Time Series Analysis, the system outputs hyper-accurate, interactive sales forecasts directly into an operational Power BI environment.",
-      image: "/assets/sales-forecast-mockup.png",
-      tags: ["Time Series", "XGBoost", "Power BI", "Data Analysis"],
+      title: "CI/CD Pipeline Automation",
+      description: "Designed and implemented a complete CI/CD pipeline using Jenkins and GitLab CI for a multi-service application. Integrated automated testing, Docker image building, and Kubernetes deployment stages to achieve fully automated, zero-downtime releases on AWS.",
+      image: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&q=80&w=800",
+      tags: ["Jenkins", "GitLab CI", "Docker", "Kubernetes"],
       link: "#",
-      github: "https://github.com/MohamedWael78"
+      github: "https://github.com/faredmansour",
+      caseStudy: {
+        problem: "Manual deployment processes were error-prone and slow, causing frequent downtime and inconsistent environments across dev, staging, and production.",
+        solution: "Implemented a full CI/CD pipeline with Jenkins and GitLab CI, automating testing, containerization with Docker, and orchestration via Kubernetes.",
+        impact: "Reduced deployment time by 70% and eliminated manual errors, achieving consistent zero-downtime releases across all environments."
+      }
     },
     {
-      title: "Customer Churn Predictor",
-      description: "Engineered a predictive analytics solution targeted at identifying at-risk customers for an expanding e-commerce platform. The project combined complex SQL data extraction, rigorous statistical analysis, and Random Forest classification models to highlight behavioral patterns, ultimately leading to a 15% reduction in customer churn.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
-      tags: ["Scikit-Learn", "SQL", "Classification", "Python"],
+      title: "Cloud Infrastructure with Terraform",
+      description: "Provisioned and managed scalable AWS cloud infrastructure using Terraform as Infrastructure as Code. Configured auto-scaling groups, load balancers, VPCs, and security groups for a high-availability production environment. Automated configuration management using Ansible.",
+      image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80&w=800",
+      tags: ["Terraform", "AWS", "Ansible", "IaC"],
       link: "#",
-      github: "https://github.com/MohamedWael78"
+      github: "https://github.com/faredmansour",
+      caseStudy: {
+        problem: "Manually provisioned cloud resources were inconsistent, hard to replicate, and took hours to spin up new environments.",
+        solution: "Wrote Terraform modules for all AWS infrastructure components and Ansible playbooks for automated server configuration management.",
+        impact: "Reduced environment provisioning time from hours to minutes, with fully reproducible and version-controlled infrastructure."
+      }
     },
     {
-      title: "IoT Smart Irrigation with AWS",
-      description: "Architected an end-to-end smart irrigation system utilizing numerous IoT sensors deployed directly in agricultural fields. The data streams seamlessly to AWS Cloud infrastructure, where an active machine learning model evaluates soil moisture and live weather forecast APIs to predict and automate the mathematically optimal watering schedules.",
-      image: "/assets/smart-irrigation-mockup.png",
-      tags: ["AWS Cloud", "IoT", "Machine Learning", "Agriculture"],
+      title: "Containerized Microservices with Kubernetes",
+      description: "Containerized a suite of backend microservices using Docker and orchestrated them on a Kubernetes cluster. Implemented Helm charts for templated deployments, horizontal pod autoscaling, and Prometheus/Grafana monitoring for real-time observability.",
+      image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&q=80&w=800",
+      tags: ["Docker", "Kubernetes", "Helm", "Prometheus"],
       link: "#",
-      github: "https://github.com/MohamedWael78"
-    },
-    {
-      title: "Automated Crop Monitoring System",
-      description: "Spearheaded the development of an automated monitoring software suite utilizing state-of-the-art computer vision algorithms. The system scans and detects early phenotypic signs of crop disease, communicating directly with smart logic controllers to dynamically adjust and isolate nutrient delivery to affected zones.",
-      image: "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=800",
-      tags: ["Computer Vision", "Automated Control", "Python", "Deep Learning"],
-      link: "#",
-      github: "https://github.com/MohamedWael78"
-    },
-    {
-      title: "Retail Analytics Power BI Dashboard",
-      description: "Developed and deployed a highly interactive, comprehensive Power BI dashboard for a major retail chain. The dashboard processes and aggregates millions of rows of sales data to visualize critical KPIs, regional sales trends, spatial performance, and inventory levels in real-time, functioning as the primary hub for executive decision-making.",
-      image: "/assets/power-bi-retail-mockup.png",
-      tags: ["Power BI", "Data Analysis", "SQL", "Dashboarding"],
-      link: "#",
-      github: "https://github.com/MohamedWael78"
-    },
-    {
-      title: "Financial Forecasting Power BI",
-      description: "Created a sophisticated, interactive financial forecasting model entirely within the Power BI ecosystem. This project leveraged deeply complex DAX calculations and data molding to project upcoming revenue growth, identify fiscal bleeding, and mathematically optimize future budget allocations across multiple corporate departments.",
-      image: "/assets/power-bi-finance-mockup.png",
-      tags: ["Power BI", "DAX", "Finance", "Predictive Modeling"],
-      link: "#",
-      github: "https://github.com/MohamedWael78"
-    },
-    {
-      title: "Physical Capability & Health Predictor",
-      description: "Developed an AI-powered diagnostic application that predicts individual physical limitations and health capabilities based on anthropometric variables and age. The project involved the rigorous training and comparative benchmarking of six distinct AI classification models. It culminates in an intuitive web app built with Python, FastAPI, and React.js.",
-      image: "/assets/health-ai-mockup.png",
-      tags: ["Python", "FastAPI", "React.js", "Scikit-Learn"],
-      link: "#",
-      github: "https://github.com/MohamedWael78"
-    },
-    {
-      title: "Hotel Booking Intelligence",
-      description: "Spearheaded a comprehensive data mining project focused entirely on analyzing legacy hotel behavior to predict future cancellation rates. Utilized advanced SQL for data structuring, extensive Exploratory Data Analysis (EDA) to uncover hidden booking patterns, and Power BI to construct an actionable command dashboard.",
-      image: "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&q=80&w=800",
-      tags: ["SQL", "Power BI", "EDA", "Data Analysis"],
-      link: "#",
-      github: "https://github.com/MohamedWael78"
-    },
-    {
-      title: "Smart Irrigation Thesis Project",
-      description: "My crowning graduation project: A deeply integrated hardware-software solution combining physical sensors, localized data modeling, and automated control logic to universally optimize irrigation water consumption in standard agricultural setups.",
-      image: "/assets/irrigation-thesis-mockup.png",
-      tags: ["Arduino", "Sensors", "Automated Control", "Irrigation"],
-      link: "#",
-      github: "https://github.com/MohamedWael78"
+      github: "https://github.com/faredmansour",
+      caseStudy: {
+        problem: "A monolithic backend application was difficult to scale and deploy, causing bottlenecks during traffic spikes.",
+        solution: "Decomposed the application into microservices, containerized each with Docker, and orchestrated on Kubernetes with Helm charts and auto-scaling.",
+        impact: "Achieved 99.9% uptime with automatic scaling during peak loads and full observability through a Prometheus/Grafana monitoring stack."
+      }
     }
   ],
   education: [
     {
-      period: "Dec 2025 — Aug 2026",
-      degree: "Applied Artificial Intelligence and Data Analysis Training",
-      institution: "Digital Pioneers Initiative (MCIT & Military Academy)",
-      description: "A comprehensive nine-month intensive program focusing on advanced AI, data science, and analytical techniques relevant to modern industry needs. The syllabus heavily emphasized real-world scenarios, forcing students to architect enterprise-level models and deploy them to cloud architectures.",
-      highlights: ["Machine Learning", "Deep Learning", "Applied Statistics", "Data Analysis", "Data Mining & Data Visualization", "Cloud Computing"]
+      period: "Dec 2025 — Present",
+      degree: "Software Development Diploma (AI-Based)",
+      institution: "Digital Pioneers Initiative (DIGILIANS) — Ministry of Communications & IT",
+      description: "An intensive software development program focused on full-stack development integrated with AI. Hands-on training in building scalable backend architectures with Node.js and Express, implementing CI/CD pipelines, and deploying containerized applications on AWS/Azure using Docker and Kubernetes.",
+      highlights: ["Full Stack Development", "CI/CD Pipelines", "Docker & AWS", "JWT Authentication", "Agile Methodologies", "AI Integration"]
     },
     {
-      period: "2019 — 2023",
-      degree: "B.Sc. in Agricultural Engineering",
-      institution: "Mansoura University",
-      description: "Graduated with a 'Very Good' overall academic grade. As culmination of my studies, I conceptualized and developed a 'Smart Irrigation System' for my graduation project—awarded an 'Excellent' grade—which seamlessly merged principles of physical hydrology with automation and logic control.",
-      highlights: ["Smart Irrigation System", "Automation", "Engineering Principles", "Thermodynamics", "Hydraulics"]
+      period: "2018 — 2023",
+      degree: "B.Sc. in Engineering — Telecommunications & Electronics",
+      institution: "Kafr el-Sheikh University",
+      description: "Bachelor's degree in Telecommunications and Electronics Engineering with a strong foundation in networking, systems design, and electronic principles — providing the technical depth that underpins my expertise in DevOps infrastructure and cloud networking.",
+      highlights: ["Telecommunications", "Electronics", "Networking", "Systems Design", "TCP/IP"]
     }
   ],
   certifications: [
-    { name: "Python DataCamp Mastery", issuer: "DataCamp", icon: "Code" },
-    { name: "Google Data Analytics Certificate", issuer: "Google", icon: "Scan" },
-    { name: "Power BI Data Analyst (PL-300)", issuer: "Microsoft", icon: "BarChart3" },
-    { name: "Microsoft Azure Fundamentals", issuer: "Microsoft", icon: "Cloud" }
+    { name: "AWS Certified Cloud Practitioner", issuer: "Amazon Web Services", icon: "Cloud" },
+    { name: "Full Stack Developer Certification", issuer: "Digital Pioneers Initiative", icon: "Code" },
+    { name: "TCP/IP, Routing & Switching (CCNA level)", issuer: "ITI", icon: "Cpu" }
   ],
   experience: [
     {
+      period: "Dec 2025 — Present",
+      role: "Full Stack Developer (AI-Based Diploma)",
+      company: "Digital Pioneers Initiative (DIGILIANS) — Ministry of Communications & IT",
+      description: "Developing full-stack applications integrating AI models to automate complex workflows. Building scalable backend architectures using Node.js and Express with secure JWT-based authentication. Implementing CI/CD pipelines and containerizing applications with Docker for cloud deployment on AWS/Azure. Applying Agile methodologies to deliver high-quality software solutions.",
+      technologies: ["Node.js", "React.js", "Docker", "AWS", "CI/CD", "JWT"]
+    },
+    {
       period: "2024 — Present",
-      role: "AI & Data Solutions Architect (Freelance)",
-      company: "Independent Client Collaborations",
-      description: "Providing bespoke consultative data architecture and AI modeling services. I regularly design, evaluate, and deploy specific machine learning algorithms targeted at predictive analysis. Furthermore, I architect interactive business intelligence dashboards allowing diverse corporate clients to visualize deeply granular metrics.",
-      technologies: ["Python", "Power BI", "FastAPI", "SQL", "Scikit"]
-    },
-    {
-      period: "2022 — 2025",
-      role: "Sales & Quantitative Operations Manager",
-      company: "Raya Computers",
-      description: "Directed high-level sales strategies while simultaneously leading rigorous operational management for IT solutions. Implemented novel data-driven approaches capable of evaluating sales pipelines, forecasting quarterly demand using specialized analytical models, and delivering robustly customized revenue reports to executive boards.",
-      technologies: ["Excel", "Power BI", "SQL", "Management", "Operations"]
-    },
-    {
-      period: "2025 — 2026",
-      role: "AI & Data Specialist Fellow",
-      company: "Digital Pioneers Initiative (MCIT & Military Academy)",
-      description: "Undertook a prestigious nine-month fellowship dedicated entirely to the Applied AI & Data Analysis track. Mastered the mathematics behind deep learning and statistics. Designed scalable AI/ML pipelines and navigated modern Azure cloud frameworks. Explored the futuristic paradigms of Agentic AI systems for predictive analytics.",
-      technologies: ["Python", "Power BI", "SQL", "Azure", "Deep Learning"]
+      role: "DevOps Engineer Trainee",
+      company: "ITI (Information Technology Institute)",
+      description: "Comprehensive training in DevOps principles, Agile/Lean methodologies, and CI/CD automation using Jenkins and GitLab CI. Hands-on experience with Infrastructure as Code using Terraform and Ansible, containerization with Docker and Kubernetes orchestration. Linux system administration, Bash scripting, user and permission management, and system monitoring in real-world integrated projects.",
+      technologies: ["Jenkins", "Terraform", "Ansible", "Docker", "Kubernetes", "Linux"]
     }
   ]
 };
 
 export const portfolioDataAR = {
   sectionDescriptions: {
-    skills: "ترسانتي التقنية هي مزيج منتقى بعناية من هندسة البيانات، والذكاء الاصطناعي، وأدوات تطوير البرمجيات. أقوم باستمرار بصقل هذه المهارات لهندسة أنظمة قوية، وقابلة للتوسع، وعالية الدقة التنبؤية، ومصممة خصيصاً لمواجهة التحديات المؤسسية المعقدة.",
-    projects: "فيما يلي عرض شامل لمحفظة أعمالي الاحترافية. تُمثل كل حالة دراسية اندماجاً فريداً بين الخبرة الميدانية والتطبيقات التكنولوجية المتقدمة، بدءاً من التحليلات التنبؤية ووصولاً إلى أنظمة رؤية الحاسب الآلية.",
-    education: "أساس نظري صلب مقترن بالتطبيق العملي الصارم. اتسمت رحلتي الأكاديمية بالسعي الدؤوب لتحقيق التميز الهندسي وتطبيق أحدث منهجيات علوم البيانات والذكاء الاصطناعي.",
-    certifications: "في المشهد التقني سريع التطور للذكاء الاصطناعي والبيانات، أصبح التعلم المستمر ضرورة حتمية للنجاح. تعكس هذه الاعتمادات المهنية التزامي بإتقان أدوات الذكاء القياسية وهندسات الحوسبة السحابية.",
-    services: "أقوم بسد الفجوة بين البيانات المعقدة واستراتيجيات الأعمال القابلة للتنفيذ. صُممت خدماتي لتمكين المؤسسات من خلال حلول الذكاء الاصطناعي المخصصة، والتحليلات العميقة، والحلول الهندسية المتينة."
+    skills: "ترسانتي التقنية مزيج منتقى من ممارسات DevOps والبنية التحتية السحابية وأدوات تطوير الويب الشامل. أسعى دائماً لبناء أنظمة قوية وقابلة للتوسع وعالية الإتاحة.",
+    projects: "فيما يلي عرض شامل لمحفظة أعمالي الاحترافية. تمثل كل حالة دراسية مزيجاً فريداً من أتمتة DevOps والمعمارية السحابية وهندسة الويب الشاملة.",
+    education: "أساس نظري صلب مقترن بتطبيق عملي صارم. رحلتي الأكاديمية تميزت بالسعي الدؤوب لتحقيق التميز الهندسي وتطبيق أحدث منهجيات تطوير البرمجيات.",
+    certifications: "في عالم السحابة وتقنيات DevOps سريع التطور، التعلم المستمر ضرورة. تعكس هذه الاعتمادات التزامي بإتقان الأدوات المعيارية ومنصات السحابة الحديثة.",
+    services: "أسد الفجوة بين التطوير والتشغيل. صُممت خدماتي لتمكين المؤسسات من خلال خطوط تسليم مؤتمتة وبنية تحتية سحابية قابلة للتوسع وحلول هندسة ويب شاملة."
   },
   personal: {
-    name: "محمد وائل",
-    title: "متخصص في الذكاء الاصطناعي التطبيقي وتحليل البيانات",
-    email: "mohamedwael2077@gmail.com",
-    linkedin: "https://linkedin.com/in/mohamed-wael-mohamed-9772803a4",
-    github: "https://github.com/MohamedWael78",
+    name: "فريد منصور",
+    title: "مهندس DevOps وفول ستاك",
+    email: "faredmansour6@gmail.com",
+    linkedin: "https://linkedin.com/in/fared-mansour-718324225",
+    github: "https://github.com/faredmansour",
     avatar: "/profile-photo.jpg",
-    phone: "01018575140",
-    whatsapp: "https://wa.me/201018575140",
+    phone: "01098798893",
+    whatsapp: "https://wa.me/201098798893",
     perspectives: {
-      official: "أنا متخصص شغوف ومتفانٍ في الذكاء الاصطناعي التطبيقي وتحليل البيانات، مع وجود أساس أكاديمي متين في الهندسة الزراعية والنظم الآلية من جامعة المنصورة. تمنحني هذه الخلفية التقنية المتداخلة منظوراً فريداً لسد الفجوة بين المبادئ الهندسية التقليدية والحلول البرمجية المتطورة والقائمة على البيانات.\n\nتخرجت مؤخراً من برنامج تدريبي مكثف استمر 9 أشهر ضمن مسار الذكاء الاصطناعي التطبيقي وعلوم البيانات بقيادة مبادرة رواد مصر الرقمية (MCIT). خلال هذه الرحلة، صقلت مهاراتي في هندسة التعلم الآلي، وبناء الشبكات العصبية العميقة، والبنى السحابية الحديثة.",
-      tech: "مدخلات البيانات: [بكالوريوس هندسة زراعية + زمالة مكثفة في AI لمدة 9 أشهر]. التقنيات الأساسية: {Python, Scikit-Learn, TensorFlow, FastAPI, Azure}. القدرات الجوهرية: [تصميم الشبكات العصبية، هندسة مسارات البيانات، التعلم الخاضع للإشراف]. \n\nأتعامل مع البيانات كمستشعر فائق الدقة للواقع. أولويات سير العمل لدي تشمل التحقق الرياضي الصارم ونشر النماذج القابلة للتوسع. أركز حالياً على أنظمة الذكاء الاصطناعي الوكيل (Agentic AI) لتحسين البيئات التشغيلية المعقدة.",
-      story: "بدأت رحلتي في مزارع المنصورة، حيث كنت أفهم الميكانيكا الفيزيائية للهندسة الزراعية. لكنني أدركت سريعاً أن الجسر الحقيقي للمستقبل ليس ميكانيكياً فحسب، بل هو جسر رياضي وعقلي. \n\nانتقلت إلى عالم الذكاء الاصطناعي ليس فقط لكتابة الكود، بل لبناء 'عقول رقمية' تحل المشكلات الحقيقية. من تصميم أنظمة الري الذكية إلى التنبؤ بسلوك العملاء، يحركني دائماً هذا التحول الساحر للبيانات الخام الفوضوية إلى معلومات استراتيجية واضحة وقابلة للتنفيذ."
+      official: "أنا مهندس خلفية وسحابة (Backend & Cloud Engineer) ذو أساس قوي في بناء تطبيقات الويب القابلة للتوسع والأنظمة السحابية الأصلية. خبير في Node.js و .NET Web API وقواعد بيانات SQL وتطوير واجهات RESTful APIs. لدي خبرة عملية في AWS و Docker و Kubernetes و Terraform وخطوط CI/CD. شغوف بحل المشكلات وتصميم الأنظمة وبناء خدمات خلفية موثوقة تتوسع في بيئات العمل سريعة الوتيرة.",
+      tech: "Stack: {React.js, Node.js, Express.js, Python, Docker, Kubernetes, Jenkins, GitHub Actions, Terraform, AWS, Azure}. القدرات الجوهرية: [أتمتة CI/CD، تنسيق الحاويات، تطوير الويب الشامل، البنية التحتية كـكود، معمارية السحابة].\n\nأتعامل مع البنية التحتية كـكود والنشر كعلم. أولوياتي هي الأتمتة والمراقبة والإصدارات بدون توقف. أركز حالياً على بناء خدمات مصغرة سحابية ونماذج نشر GitOps.",
+      story: "بدأت رحلتي بشغف لبناء أشياء تعمل بشكل موثوق على نطاق واسع. أدركت مبكراً أن البرمجيات الرائعة لا تتعلق فقط بكتابة الكود — بل بكيفية بناء هذا الكود واختباره ونشره ومراقبته.\n\nتعمقت في DevOps ليس فقط لأتمتة خطوط العمل، بل لبناء ثقافات هندسية يكون فيها التسليم سريعاً وآمناً وقابلاً للتكرار. من احتواء التطبيقات القديمة إلى هندسة منصات ويب شاملة من الصفر، يحركني التقاطع بين التميز التطويري والاستقرار التشغيلي."
     },
     metrics: [
-      { label: "نماذج مُدربة", value: "24", suffix: "+" },
-      { label: "ملايين البيانات المعالجة", value: "1.2", suffix: "+" },
-      { label: "معدل الدقة", value: "98", suffix: "%" }
+      { label: "خطوط نشر مُنجزة", value: "30", suffix: "+" },
+      { label: "خدمات محتواة", value: "50", suffix: "+" },
+      { label: "وقت تشغيل النظام", value: "99.9", suffix: "%" }
     ],
     services: [
       {
-        title: "حلول الذكاء الاصطناعي التنبؤي",
-        description: "تطوير نماذج تعلم آلي مخصصة للتنبؤ بالاتجاهات، وأتمتة اتخاذ القرارات المعقدة، وفتح الفرص المخفية في بياناتك.",
-        icon: "BrainCircuit",
-        features: ["التصنيف والانحدار", "تصميم الشبكات العصبية", "التنبؤ بالسلاسل الزمنية"]
-      },
-      {
-        title: "تصوير البيانات المتقدم",
-        description: "تصميم لوحات تحكم تفاعلية (Power BI & Tableau) تحول مجموعات البيانات الفوضوية إلى قصص بصرية واضحة وقابلة للتنفيذ.",
-        icon: "BarChart3",
-        features: ["تقارير مؤتمتة", "تتبع مؤشرات الأداء (KPI)", "تحليلات فورية"]
-      },
-      {
-        title: "هندسة البيانات المتكاملة",
-        description: "بناء مسارات بيانات قوية وأنظمة كشط آلية لضمان أن بياناتك نظيفة، ومنظمة، وجاهزة للتحليلات المتقدمة.",
-        icon: "Database",
-        features: ["ETL Pipelines", "كشط الويب الآلي", "تصميم قواعد SQL"]
-      },
-      {
-        title: "الأنظمة الهندسية الذكية",
-        description: "دمج مبادئ الهندسة الزراعية مع الذكاء الاصطناعي لتطوير أنظمة مراقبة آلية، وري ذكي، وأنظمة تشغيل دقيقة.",
+        title: "أتمتة خطوط CI/CD",
+        description: "تصميم وتنفيذ خطوط CI/CD شاملة تُؤتمت الاختبار والبناء والنشر لتسريع تسليم البرمجيات بثقة.",
         icon: "Cpu",
-        features: ["تكامل IoT", "أتمتة العمليات", "تحسين كفاءة الأنظمة"]
+        features: ["GitHub Actions", "Jenkins Pipelines", "اختبار مؤتمت"]
       },
       {
-        title: "أنظمة الرؤية الحاسوبية",
-        description: "تطبيق نماذج متقدمة للتعرف على الصور واكتشاف الأشياء للمراقبة الآلية، ومراقبة الجودة، والفحص البصري الدقيق.",
-        icon: "Eye",
-        features: ["اكتشاف الأشياء", "تصنيف الصور", "المراقبة الفورية"]
+        title: "البنية التحتية السحابية (IaC)",
+        description: "توفير وإدارة البنية التحتية السحابية القابلة للتوسع على AWS و Azure باستخدام Terraform و Ansible.",
+        icon: "Cloud",
+        features: ["Terraform & Ansible", "AWS & Azure", "توسع تلقائي"]
       },
       {
-        title: "البيانات الضخمة والأتمتة",
-        description: "توسيع حلول البيانات للتعامل مع المجموعات الضخمة وأتمتة سير العمل المتكرر لتوفير الوقت وتقليل الأخطاء البشرية.",
+        title: "تطوير الويب الشامل",
+        description: "بناء تطبيقات ويب حديثة ومتجاوبة من الواجهة إلى الخادم باستخدام React.js و Node.js وواجهات REST.",
         icon: "Layers",
-        features: ["أتمتة سير العمل", "المعالجة واسعة النطاق", "تقليل الأخطاء"]
+        features: ["React.js & Next.js", "Node.js & Express", "REST APIs"]
+      },
+      {
+        title: "الحاويات والتنسيق",
+        description: "احتواء التطبيقات بـ Docker وتنسيقها على نطاق واسع بـ Kubernetes لتحقيق نشر عالي الإتاحة ويعيد ترميم نفسه.",
+        icon: "Database",
+        features: ["Docker & Compose", "Kubernetes (K8s)", "Helm Charts"]
+      },
+      {
+        title: "المراقبة والرصد",
+        description: "تنفيذ مجموعات مراقبة شاملة بـ Prometheus و Grafana ومجموعة ELK لرؤية عميقة لصحة النظام.",
+        icon: "BarChart3",
+        features: ["Prometheus & Grafana", "ELK Stack", "أنظمة التنبيه"]
+      },
+      {
+        title: "DevSecOps والأمان",
+        description: "دمج ممارسات الأمان في خط التطوير مباشرة مع فحص آلي للثغرات وإدارة الأسرار ومراجعة الامتثال.",
+        icon: "Eye",
+        features: ["فحص الثغرات", "إدارة الأسرار", "التحكم بالوصول"]
       }
     ]
   },
   skills: [
     { 
-      category: "الذكاء الاصطناعي وتعلم الآلة", 
+      category: "السحابة و DevOps", 
       items: [
-        { name: "Machine Learning", description: "بناء النماذج التنبؤية التي تعتمد على التعرف على الأنماط لتسهيل اتخاذ القرارات المؤتمتة." },
-        { name: "Deep Learning", description: "هندسة الشبكات العصبية العميقة لمهام رؤية الحاسب ومعالجة اللغات الطبيعية (NLP)." },
-        { name: "TensorFlow", description: "منصة شاملة مفتوحة المصدر لتدريب ونشر نماذج الشبكات العصبية الضخمة في بيئات الإنتاج." },
-        { name: "Keras", description: "واجهة برمجية عالية المستوى تتيح بناء النماذج الأولية للتعلم العميق واختبارها بسرعة فائقة." }
+        { name: "AWS", description: "نشر وإدارة البنية التحتية السحابية والدوال بدون خادم والتخزين على خدمات أمازون." },
+        { name: "Docker", description: "احتواء التطبيقات لبيئات نشر متسقة ومحمولة ومعزولة." },
+        { name: "Kubernetes", description: "تنسيق أحمال العمل المحتواة للتوسع التلقائي والإصلاح الذاتي والنشر عالي الإتاحة." },
+        { name: "CI/CD Pipelines", description: "أتمتة سير عمل البناء والاختبار والنشر بـ Jenkins وGitLab CI وGitHub Actions." },
+        { name: "Terraform", description: "أداة البنية التحتية كـكود لتوفير موارد السحابة وإدارتها بشكل إعلاني." },
+        { name: "Ansible", description: "أداة أتمتة بدون وكلاء لإدارة التكوين ونشر التطبيقات وتنسيق المهام." }
       ] 
     },
     { 
-      category: "البرمجة وإطارات العمل", 
+      category: "الأدوات والأمان", 
       items: [
-        { name: "Python", description: "لغة البرمجة الأساسية والجوكر لتطوير نماذج الذكاء الاصطناعي وأتمتة العمليات البرمجية." },
-        { name: "Scikit-Learn", description: "المكتبة المعيارية لتنفيذ خوارزميات تعلم الآلة الكلاسيكية وبناء خطوط معالجة النماذج." },
-        { name: "SQL", description: "إدارة قواعد البيانات الضخمة وبناء الاستعلامات الهيكلية المعقدة لاستخلاص البيانات." },
-        { name: "FastAPI", description: "إطار عمل حديث وعالي السرعة لبناء خدمات الويب ومسارات نشر نماذج الذكاء الاصطناعي." },
-        { name: "Pandas", description: "الأداة الأولى لمعالجة البيانات المنظمة وتحليل السلاسل الزمنية والجداول الإحصائية." },
-        { name: "NumPy", description: "المكتبة الأساسية للحوسبة العددية عالية الأداء ومعالجة المصفوفات الرياضية المعقدة." }
+        { name: "Git & GitHub", description: "منصة التحكم في الإصدار والتعاون لتتبع التغييرات وإدارة قواعد الكود على نطاق واسع." },
+        { name: "JWT Authentication", description: "مصادقة آمنة وعديمة الحالة قائمة على الرمز المميز لحماية واجهات برمجية وجلسات المستخدم." },
+        { name: "Linux & Bash", description: "إدارة نظام Linux والبرمجة النصية بـ Bash وإدارة المستخدمين والأذونات لبيئات الخادم." }
       ] 
     },
     { 
-      category: "الخدمات السحابية", 
+      category: "الخلفية وقواعد البيانات", 
       items: [
-        { name: "Azure Cloud", description: "نشر حلول الذكاء الاصطناعي وإدارة البنى التحتية الافتراضية على سحابة مايكروسوفت العالمية." },
-        { name: "AWS Cloud", description: "استغلال الحوسبة الموزعة وخدمات التخزين المرنة لبناء منصات علوم بيانات قوية ومستقرة." }
+        { name: "Node.js", description: "بيئة تشغيل مدفوعة بالأحداث لبناء خدمات خلفية وواجهات برمجية عالية الأداء." },
+        { name: "Express.js", description: "إطار عمل Node.js مرن لبناء واجهات REST البرمجية وتطبيقات الويب." },
+        { name: "RESTful APIs", description: "تصميم واستهلاك واجهات برمجية عديمة الحالة تتبع مبادئ معمارية REST." },
+        { name: "PostgreSQL", description: "قاعدة بيانات علائقية متقدمة للاستعلامات المعقدة وسلامة البيانات التعاملية." },
+        { name: "MongoDB", description: "قاعدة بيانات NoSQL موجهة للوثائق للتخزين المرن وعالي الإنتاجية." }
       ] 
     },
     { 
-      category: "تصوير البيانات", 
+      category: "الواجهة الأمامية", 
       items: [
-        { name: "Power BI", description: "تحويل البيانات الخام إلى لوحات تحكم تفاعلية وقصص بصرية تدعم ذكاء الأعمال الاستراتيجي." },
-        { name: "Tableau", description: "منصة بصرية ديناميكية لاستكشاف البيانات واكتشاف الاستبصارات الهامة في الوقت الفعلي." },
-        { name: "Excel", description: "الأداة المعيارية لتنظيم البيانات الكمية، الاستخدام المتقدم للصيغ، وإعداد التقارير المحورية." }
+        { name: "React.js", description: "مكتبة واجهة مستخدم قائمة على المكونات لبناء تطبيقات صفحة واحدة سريعة وقابلة للتوسع." },
+        { name: "HTML5 & CSS3", description: "ترميز دلالي وتنسيق حديث لواجهات سهلة الوصول ومتجاوبة وغنية بصرياً." },
+        { name: "Responsive Design", description: "تصميم تخطيطات تتكيف بسلاسة مع جميع أحجام الشاشات وأنواع الأجهزة." }
       ] 
     },
     { 
-      category: "التحليل", 
+      category: "اللغات", 
       items: [
-        { name: "SPSS", description: "برمجية إحصائية متخصصة للتنقيب المعمق في البيانات وأبحاث العلوم الاجتماعية المعقدة." },
-        { name: "Power BI", description: "دمج مصادر البيانات المتعددة لإجراء تحليلات تشغيلية واستراتيجية شاملة ومؤتمتة." },
-        { name: "Tableau", description: "تجسيد النتائج التحليلية في صور واضحة تساعد صناع القرار على فهم التوجهات المستقبلية." },
-        { name: "Excel", description: "استخدام Power Query والتحليل المحوري لتنظيف البيانات وبناء النماذج المالية الدقيقة." }
+        { name: "JavaScript (ES6+)", description: "جافاسكريبت الحديثة لبناء تطبيقات ويب ديناميكية وتفاعلية وعالية الأداء." },
+        { name: "Python", description: "لغة متعددة الاستخدامات للتطوير الخلفي والبرمجة النصية والأتمتة ودمج الذكاء الاصطناعي." },
+        { name: "SQL", description: "تصميم واستعلام قواعد البيانات العلائقية لإدارة البيانات المنظمة وإعداد التقارير." },
+        { name: "C++", description: "لغة برمجة على مستوى الأنظمة تُستخدم في التطبيقات ذات الأداء الحرج والخوارزميات." }
       ] 
     }
   ],
-  allSkills: ["SQL", "Python", "Machine Learning", "Deep Learning", "Power BI", "Tableau", "AWS Cloud", "Azure Cloud", "FastAPI", "NumPy", "Pandas", "TensorFlow", "Pytorch", "Keras", "Scikit-Learn"],
+  allSkills: ["JavaScript", "Python", "SQL", "React.js", "Node.js", "Express.js", "MongoDB", "PostgreSQL", "Docker", "Kubernetes", "AWS", "Azure", "Terraform", "Ansible", "CI/CD", "Git"],
+  radarData: [
+    { subject: 'Full Stack Dev', A: 90, fullMark: 100 },
+    { subject: 'DevOps & CI/CD', A: 88, fullMark: 100 },
+    { subject: 'Cloud (AWS/Azure)', A: 85, fullMark: 100 },
+    { subject: 'Containerization', A: 87, fullMark: 100 },
+    { subject: 'Backend APIs', A: 92, fullMark: 100 },
+    { subject: 'Security', A: 83, fullMark: 100 },
+  ],
   projects: [
     {
-      title: "تحليل المشاعر لللهجة السعودية",
-      description: "نموذج NLP متقدم تم تدريبه حصرياً على بيانات ونصوص مكتوبة باللهجة السعودية الدارجة بغية بناء توقع إيجابي/سلبي دقيق للمشاعر من النصوص والألفاظ الدقيقة. بني النظام استناداً على الخوارزميات العميقة المعقدة (LSTM و Transformers) وتم دمجه وتركيبه كلياً كواجهة برمجية ضمن تطبيق ويب لتوصيل نتيجة مباشرة وفورية للمستخدم.",
-      image: "https://images.unsplash.com/photo-1549692520-acc6669e2f0c?auto=format&fit=crop&q=80&w=800",
-      tags: ["Deep Learning", "NLP", "Python", "TensorFlow"],
+      title: "مشروع التخرج: تطبيق ويب شامل بالذكاء الاصطناعي",
+      description: "تصميم ونشر تطبيق ويب شامل بمكدس MERN (MongoDB, Express, React, Node.js) مدمج بميزات أتمتة مدعومة بالذكاء الاصطناعي. تم تنفيذ خطوط CI/CD مع Docker للاحتواء وإدارة النشر السحابي عبر AWS. تأمين التطبيق ببروتوكولات JWT والمصادقة المتقدمة.",
+      image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&q=80&w=800",
+      tags: ["MERN Stack", "Docker", "AWS", "JWT"],
       link: "#",
-      github: "https://github.com/MohamedWael78"
+      github: "https://github.com/faredmansour",
+      caseStudy: {
+        problem: "كان الفريق بحاجة إلى تطبيق ويب شامل قابل للتوسع يدمج التحليلات المدعومة بالذكاء الاصطناعي مع الوصول الآمن وسير عمل النشر المؤتمت.",
+        solution: "بناء تطبيق MERN مع ميزات أتمتة الذكاء الاصطناعي، محتوى بـ Docker، ومنشور على AWS مع خط CI/CD كامل.",
+        impact: "تسليم منصة جاهزة للإنتاج مع نشر بدون توقف وواجهات برمجية مؤمنة بـ JWT ورؤى بيانات مدعومة بالذكاء الاصطناعي للمستخدمين النهائيين."
+      }
     },
     {
-      title: "نظام رؤية الآلة لكشف العيوب المصنعية",
-      description: "هندسة وبناء نظام استثنائي ذو صلابة فائقة لـ (رؤية الحاسب - Computer Vision)، صُمم بدقة لاكتشاف وتحديد العيوب الدقيقة جداً للخطوط التصنيعية شديدة السرعة في الوقت الفعلي. عن طريق استخدام نماذج YOLOv8 وإعدادها للعمل بكفاءة على الحوسبة الطرفية، سجل النظام مستوى دقة بنسبة 98% مساهماً بخفض أخطاء الفحص اليدوي.",
-      image: "/assets/defect-detection-mockup.png",
-      tags: ["Computer Vision", "OpenCV", "YOLOv8", "Machine Learning"],
+      title: "منصة مجتمع الطلاب الوطنية",
+      description: "هندسة منصة ويب واسعة النطاق تربط طلاب المدارس المتوسطة والثانوية في جميع أنحاء مصر لتبادل المعرفة والتعاون في التعلم والمشاركة في التحديات التعليمية والثقافية. مبنية بواجهات RESTful APIs بـ Node.js وقاعدة بيانات SQL علائقية والتحكم في الوصول القائم على الأدوار.",
+      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=800",
+      tags: ["Node.js", "SQL", "REST API", "JWT"],
       link: "#",
-      github: "https://github.com/MohamedWael78"
+      github: "https://github.com/faredmansour",
+      caseStudy: {
+        problem: "افتقر الطلاب المصريون إلى منصة موحدة للتعلم التعاوني والتحديات التعليمية وتبادل المعرفة عبر المحافظات المختلفة.",
+        solution: "بناء واجهات RESTful APIs الخلفية بـ Node.js وSQL مع التحكم في الوصول القائم على الأدوار، ودعم وحدات النقاشات والتحديات والتطوع.",
+        impact: "تسليم منصة قابلة للتوسع مصممة للتعامل مع مستخدمين على نطاق واسع عبر محافظات متعددة، مما يتيح التعاون التعليمي والثقافي على المستوى الوطني."
+      }
     },
     {
-      title: "توقع مستقبل مبيعات التجزئة الذكي",
-      description: "سلسلة بناء هيكلية شاملة تولت معالجة بيانات تاريخية ضخمة لسلاسل مبيعات كبرى. بعد عمليات تنظيف ومعالجة دقيقة، تم تغذية النماذج التنبؤية (مثل XGBoost والسلاسل الزمنية) لتُصدر في النهاية نتائج استشرافية دقيقة عن الحجم المستقبلي للطلب والمبيعات وتجسيدها بلوحات Power BI حية.",
-      image: "/assets/sales-forecast-mockup.png",
-      tags: ["Time Series", "XGBoost", "Power BI", "Data Analysis"],
+      title: "أتمتة خطوط CI/CD",
+      description: "تصميم وتنفيذ خط CI/CD كامل بـ Jenkins وGitLab CI لتطبيق متعدد الخدمات. دمج مراحل الاختبار التلقائي وبناء صور Docker ونشر Kubernetes لتحقيق إصدارات مؤتمتة بالكامل بدون توقف على AWS.",
+      image: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&q=80&w=800",
+      tags: ["Jenkins", "GitLab CI", "Docker", "Kubernetes"],
       link: "#",
-      github: "https://github.com/MohamedWael78"
+      github: "https://github.com/faredmansour",
+      caseStudy: {
+        problem: "كانت عمليات النشر اليدوية عرضة للأخطاء وبطيئة، مما تسبب في توقف متكرر وبيئات غير متسقة عبر التطوير والاختبار والإنتاج.",
+        solution: "تنفيذ خط CI/CD كامل بـ Jenkins وGitLab CI، مما يؤتمت الاختبار والاحتواء بـ Docker والتنسيق عبر Kubernetes.",
+        impact: "تقليل وقت النشر بنسبة 70% والقضاء على الأخطاء اليدوية، مما يحقق إصدارات متسقة بدون توقف عبر جميع البيئات."
+      }
     },
     {
-      title: "نظام التنبؤ الاستراتيجي بتسرب العملاء",
-      description: "ابتكار برمجية تنبؤية فائقة الدقة لتحديد العملاء ذوي التوجه المرتفع لهجر أو ترك خدمة المنصة التجارية (Churn Risk). جمع المشروع بين فنون الاستخراج السلس والعميق بالاستعلامات الهيكلية (SQL) والخواص الجبرية لخوارزمية تصنيف أشجار الغابات العشوائية، ليسفر عنه تراجع ملحوظ في معدل الخسارة بـ 15%.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
-      tags: ["Scikit-Learn", "SQL", "Classification", "Python"],
+      title: "البنية التحتية السحابية بـ Terraform",
+      description: "توفير وإدارة البنية التحتية السحابية لـ AWS القابلة للتوسع باستخدام Terraform كـ Infrastructure as Code. تكوين مجموعات التوسع التلقائي وموازنات التحميل وVPCs ومجموعات الأمان لبيئة إنتاج عالية الإتاحة. أتمتة إدارة التكوين بـ Ansible.",
+      image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80&w=800",
+      tags: ["Terraform", "AWS", "Ansible", "IaC"],
       link: "#",
-      github: "https://github.com/MohamedWael78"
+      github: "https://github.com/faredmansour",
+      caseStudy: {
+        problem: "كانت موارد السحابة المُوفَّرة يدوياً غير متسقة وصعبة التكرار وتستغرق ساعات لإنشاء بيئات جديدة.",
+        solution: "كتابة وحدات Terraform لجميع مكونات البنية التحتية لـ AWS وكتب Ansible للإدارة التلقائية لتكوين الخادم.",
+        impact: "تقليل وقت توفير البيئة من ساعات إلى دقائق، مع بنية تحتية قابلة للتكرار بالكامل ومنظمة في إصدارات."
+      }
     },
     {
-      title: "منظومة الري الذكي السحابية (AWS)",
-      description: "بناء هيكل ري تقني متكامل الأركان يعتمد على مصفوفة مستشعرات لإنترنت الأشياء (IoT) المدمجة بعمق الأرض الزراعية. حيث ترسل تلك المجسات قراءاتها مباشرة وبسرعة فائقة لخوادم الحوسبة السحابية من نوع AWS، وهناك يقوم نموذج التعلم الآلي بمعايرة جداول المياه وفقاً للرطوبة وتوقعات الطقس بشكل ديناميكي كامل.",
-      image: "/assets/smart-irrigation-mockup.png",
-      tags: ["AWS Cloud", "IoT", "Machine Learning", "Agriculture"],
+      title: "خدمات مصغرة محتواة بـ Kubernetes",
+      description: "احتواء مجموعة من الخدمات المصغرة الخلفية بـ Docker وتنسيقها على مجموعة Kubernetes. تطبيق مخططات Helm للنشر المقولب والتوسع التلقائي الأفقي للـ Pod ومراقبة Prometheus/Grafana للرصد الفوري.",
+      image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&q=80&w=800",
+      tags: ["Docker", "Kubernetes", "Helm", "Prometheus"],
       link: "#",
-      github: "https://github.com/MohamedWael78"
-    },
-    {
-      title: "المرصد الآلي الذكي للمحاصيل",
-      description: "تصدرت هذه المهمة عملية بناء شبكة معالجة تصويرية متقدمة لخوارزميات الكمبيوتر فيزون لدراسة الطور الظاهري للنبات، وتحديد أي علامات مبكرة ومجهرية تحذيرية للإصابات المرضية أو الإجهاد البيئي، والاتصال مركزياً بأذرع رش الري الذكي للعزل والدعم المستهدف مباشرة.",
-      image: "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=800",
-      tags: ["Computer Vision", "Automated Control", "Python", "Deep Learning"],
-      link: "#",
-      github: "https://github.com/MohamedWael78"
-    },
-    {
-      title: "مركز تحليلات بيانات المبيعات (Power BI)",
-      description: "تصميم وإطلاق نظام قيادة تفاعلي عالي التشابك والعمق باستخدام Power BI لسلسلة بيع ضخمة. قادرة هذه اللوحات على سحق وتصفية ومعالجة ملايين السجلات لمعاملات المبيعات للوصول لرؤى دقيقة وتصوير بصري فائق الأهمية، يشمل تقييم مؤشرات الأداء الحيوية، والحصص المناطقية، والجرد الآني.",
-      image: "/assets/power-bi-retail-mockup.png",
-      tags: ["Power BI", "Data Analysis", "SQL", "Dashboarding"],
-      link: "#",
-      github: "https://github.com/MohamedWael78"
-    },
-    {
-      title: "النمذجة الرياضية للتنبؤ المالي",
-      description: "إنشاء وتشكيل مجسّمات وحسابات مالية متقدمة وتفاعلية جداً ضمن النظام البيئي الشامل لـPower BI. وظّف هذا المشروع قواعد حسابية شديدة التشعب في (DAX) لتوقع منحنيات نمو العوائد وتأطير السياسات التي تضمن التحسين المستقبلي لتخصيصات وميزانيات الشركة وحماية مقدراتها المالية.",
-      image: "/assets/power-bi-finance-mockup.png",
-      tags: ["Power BI", "DAX", "Finance", "Predictive Modeling"],
-      link: "#",
-      github: "https://github.com/MohamedWael78"
-    },
-    {
-      title: "المُقيّم الذكي للقدرة البدنية والصحية",
-      description: "منظومة تشخيصية حديثة ومدعومة بسحر الذكاء الاصطناعي للتنبؤ بدقة فائقة بالقيود والقدرات الجسدية للأفراد بالاعتماد على المدخلات الأنثروبومترية الأساسية. تكلف المشروع باختبار، تنقيح ومقارنة وم فاضلة بين ستة من خوارزميات التصنيف. وبلغ الأمر أوجه بطرح واجهة مستخدم ناعمة بالاستعانة بـ Python، FastAPI، و React.js.",
-      image: "/assets/health-ai-mockup.png",
-      tags: ["Python", "FastAPI", "React.js", "Scikit-Learn"],
-      link: "#",
-      github: "https://github.com/MohamedWael78"
-    },
-    {
-      title: "نظام الاستخبارات والتحليلات الفندقية",
-      description: "تولي قيادة وتنسيق مشروع كبير للتنقيب المعُممق والغوص في البيانات التاريخية للحجوزات لاكتشاف الأنماط الخفية ومعدلات الإلغاء. تم استغلال الاستعلامات الهيكلية المنظمة (SQL)، ثم تنفيذ التحليل الاستكشافي المتميز للمتغيرات الشديدة (EDA)، وإنهاء العمل بنماذج بصرية استراتيجية.",
-      image: "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&q=80&w=800",
-      tags: ["SQL", "Power BI", "EDA", "Data Analysis"],
-      link: "#",
-      github: "https://github.com/MohamedWael78"
-    },
-    {
-      title: "مشروع الري الذكي للأطروحة",
-      description: "التتويج الأكاديمي الشامل لرحلتي: حل برمجي وفيزيائي مترابط يجمع العتاد الصلب والحساسات الرطوبية بنموذج تحكم ذكي دقيق لتخصيص الاستهلاك المائي بكفاءة وتوجيهه للمناطق الحيوية والمفتقرة بالبيئات والمحاور الزراعية العادية.",
-      image: "/assets/irrigation-thesis-mockup.png",
-      tags: ["Arduino", "Sensors", "Automated Control", "Irrigation"],
-      link: "#",
-      github: "https://github.com/MohamedWael78"
+      github: "https://github.com/faredmansour",
+      caseStudy: {
+        problem: "كان تطبيق الخلفية المتجانس صعب التوسع والنشر، مما يتسبب في اختناقات أثناء ذروة حركة المرور.",
+        solution: "تحليل التطبيق إلى خدمات مصغرة واحتواء كل منها بـ Docker وتنسيقها على Kubernetes مع مخططات Helm والتوسع التلقائي.",
+        impact: "تحقيق وقت تشغيل 99.9% مع التوسع التلقائي أثناء أوقات الذروة ورصد كامل من خلال مجموعة مراقبة Prometheus/Grafana."
+      }
     }
   ],
   education: [
     {
-      period: "ديسمبر 2025 — أغسطس 2026",
-      degree: "برنامج زمالة الذكاء الاصطناعي التطبيقي وتكنولوجيا البيانات",
-      institution: "مبادرة رواد مصر الرقمية (وزارة الاتصالات المفتوحة والأكاديمية العسكرية MTI)",
-      description: "برنامج تأهيلي احترافي مكثف استمر طيلة تسعة أشهر لتدريس والتدرب على تقنيات الذكاء الاصطناعي الأرقى والأشد عمقاً. لقد اعتمد النهج على محاكاة الظروف الواقعية، حيث لزم تقديم ونشر موديلات وتطبيقات برمجية عالية الأداء على السحابة، وضمان دقتها الفائقة في قطاعات الأعمال.",
-      highlights: ["Machine Learning", "Deep Learning", "Applied Statistics", "Data Analysis", "Data Mining & Data Visualization", "Cloud Computing"]
+      period: "ديسمبر 2025 — الوقت الحالي",
+      degree: "دبلومة تطوير البرمجيات (قائمة على الذكاء الاصطناعي)",
+      institution: "مبادرة رواد مصر الرقمية (DIGILIANS) — وزارة الاتصالات وتكنولوجيا المعلومات",
+      description: "برنامج تطوير برمجيات مكثف يركز على تطوير الويب الشامل المدمج بالذكاء الاصطناعي. تدريب عملي على بناء معمارات خلفية قابلة للتوسع بـ Node.js وExpress وتنفيذ خطوط CI/CD ونشر تطبيقات محتواة على AWS/Azure باستخدام Docker وKubernetes.",
+      highlights: ["تطوير الويب الشامل", "خطوط CI/CD", "Docker & AWS", "مصادقة JWT", "منهجيات Agile", "دمج الذكاء الاصطناعي"]
     },
     {
-      period: "2019 — 2023",
-      degree: "بكالوريوس في الهندسة الزراعية المنظومية",
-      institution: "جامعة المنصورة - مصر",
-      description: "التخرج بتقدير أكاديمي متفوق وبدرجة (جيد جداً)، ليتوج هذا العناء الطويل بتقديم وبناء هندسي متكامل لـ 'نظام الري المائي الذكي' ضمن أطروحة التخرج. نالت الفكرة تقديرا مبجلاً من لجنة المناقشة (بدرجة امتياز)، لإبرازها توافقاً هندسياً بين أسس ومفاهيم الميكانيكا والدوائر المنطقية المؤتمتة.",
-      highlights: ["Smart Irrigation System", "Automation", "Engineering Principles", "Thermodynamics", "Hydraulics"]
+      period: "2018 — 2023",
+      degree: "بكالوريوس في الهندسة — الاتصالات والإلكترونيات",
+      institution: "جامعة كفر الشيخ",
+      description: "بكالوريوس في هندسة الاتصالات والإلكترونيات مع أساس متين في الشبكات وتصميم الأنظمة والمبادئ الإلكترونية — يوفر العمق التقني الذي يدعم خبرتي في بنية DevOps وشبكات السحابة.",
+      highlights: ["الاتصالات", "الإلكترونيات", "الشبكات", "تصميم الأنظمة", "TCP/IP"]
     }
   ],
   certifications: [
-    { name: "إتقان ومسار لغة Python", issuer: "DataCamp", icon: "Code" },
-    { name: "منظومة تحليلات البيانات من جووجل", issuer: "Google", icon: "Scan" },
-    { name: "شهادة محلل بيانات معتمد - Power BI (PL-300)", issuer: "Microsoft", icon: "BarChart3" },
-    { name: "أساسيات الحوسبة السحابية Azure", issuer: "Microsoft", icon: "Cloud" }
+    { name: "AWS Certified Cloud Practitioner", issuer: "Amazon Web Services", icon: "Cloud" },
+    { name: "شهادة مطور فول ستاك", issuer: "مبادرة رواد مصر الرقمية", icon: "Code" },
+    { name: "TCP/IP، التوجيه والتبديل (مستوى CCNA)", issuer: "ITI", icon: "Cpu" }
   ],
   experience: [
     {
+      period: "ديسمبر 2025 — الوقت الحالي",
+      role: "مطور فول ستاك (دبلومة قائمة على الذكاء الاصطناعي)",
+      company: "مبادرة رواد مصر الرقمية (DIGILIANS) — وزارة الاتصالات",
+      description: "تطوير تطبيقات ويب شاملة تدمج نماذج الذكاء الاصطناعي لأتمتة سير العمل المعقد. بناء معمارات خلفية قابلة للتوسع بـ Node.js وExpress مع مصادقة آمنة بـ JWT. تنفيذ خطوط CI/CD واحتواء التطبيقات بـ Docker للنشر السحابي على AWS/Azure. تطبيق منهجيات Agile لتسليم حلول برمجية عالية الجودة.",
+      technologies: ["Node.js", "React.js", "Docker", "AWS", "CI/CD", "JWT"]
+    },
+    {
       period: "2024 — الوقت الحالي",
-      role: "مستشار ومعماري حلول بيانات وذكاء اصطناعي (حر)",
-      company: "تعاون استشاري مستقل",
-      description: "توفير خدمات استشارية وتقنية متقدمة في مجال هيكلة وتنظيم البيانات والنمذجة العميقة. أصمم بانتظام وأنفّذ وأقيّم خوارزميات تعلم آلي دقيقة مصممة لتحقيق الرؤى التنبؤية، كما أقوم بتطوير لوحات القيادة ولوحات أعمال إحصائية (BI) سريعة الاستجابة لتمكين الكيانات المختلفة من دراسة مؤشراتها.",
-      technologies: ["Python", "Power BI", "FastAPI", "SQL", "Scikit"]
-    },
-    {
-      period: "2022 — 2025",
-      role: "مدير المبيعات والاستراتيجية التشغيلية للبيانات",
-      company: "حواسيب راية (Raya Computers)",
-      description: "توجيه وتطوير المخططات والإجراءات الملموسة للمبيعات بجانب الرقابة الدقيقة والكثيفة لسير منظومة الحلول التكنولوجية. طبّقت مفاهيم وآليات مستمدة من التنقيب التنبؤي لتقييم وقياس الطلب وخطوط العرض، ونجحت في تحييد الأزمات بتزويد الهيئات الإدارية بتقارير كمية دقيقة دعمت كفاءة اتخاذ القرارات بوضوح.",
-      technologies: ["Excel", "Power BI", "SQL", "Management", "Operations"]
-    },
-    {
-      period: "2025 — 2026",
-      role: "زميل باحث مختص بالنماذج والمنظومات التنبؤية",
-      company: "مبادرة رواد مصر الرقمية (منحة حكومية)",
-      description: "استثمار فترة تسعة أشهر بتركيز جامح لكسر الحواجز في مسار علوم البيانات والتحليل العميق (Applied AI & Data Analysis). حيث تم سبر أغوار الجبر والإحصاء المستخدم بالتعلم الآلي. وتم التدرب عملياً على البث المباشر للأنظمة الخوارزمية عبر Microsoft Azure، واكتشاف ثرورة من نماذج الـتصرف الآلية الصانعة للقرار (Agentic AI Systems).",
-      technologies: ["Python", "Power BI", "SQL", "Azure", "Deep Learning"]
+      role: "متدرب مهندس DevOps",
+      company: "معهد تكنولوجيا المعلومات (ITI)",
+      description: "تدريب شامل على مبادئ DevOps ومنهجيات Agile/Lean وأتمتة CI/CD بـ Jenkins وGitLab CI. خبرة عملية في البنية التحتية كـكود بـ Terraform وAnsible واحتواء التطبيقات بـ Docker وتنسيق Kubernetes. إدارة نظام Linux والبرمجة النصية بـ Bash وإدارة المستخدمين والأذونات ومراقبة النظام في مشاريع متكاملة حقيقية.",
+      technologies: ["Jenkins", "Terraform", "Ansible", "Docker", "Kubernetes", "Linux"]
     }
   ]
 };
+
+

@@ -42,7 +42,7 @@ export const Navbar = () => {
           href="#"
           className="text-xl font-bold tracking-tight hover:text-primary"
         >
-          MW<span className="text-primary">.</span>
+          fared<span className="text-primary">.</span>
         </a>
 
         {/* Desktop Nav */}

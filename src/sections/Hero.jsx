@@ -114,10 +114,6 @@ export const Hero = () => {
 
             {/* Headline */}
             <motion.div variants={fadeIn("up", 0.4)} className="space-y-4 relative">
-              {/* Premium Arabic Background Watermark */}
-              <div className={`absolute -top-10 ${language === 'ar' ? 'right-0' : 'left-0'} text-[180px] font-black text-primary/5 select-none font-serif leading-none z-0 pointer-events-none`}>
-                محمد
-              </div>
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-none relative z-10">
                 {t('hero_hi')} <br />
                 <span className="bg-gradient-to-r from-primary via-highlight to-accent text-transparent bg-clip-text drop-shadow-[0_0_35px_rgba(147,197,253,0.3)]">
@@ -157,21 +153,49 @@ export const Hero = () => {
               </p>
             </motion.div>
 
-            {/* Impact Metrics */}
+            {/* Hero CTA Buttons */}
             <motion.div
-              variants={fadeIn("up", 0.7)}
-              className="grid grid-cols-3 gap-4 pt-8"
+              variants={fadeIn("up", 0.8)}
+              className="flex flex-wrap gap-6 pt-12"
             >
-              {personal.metrics.map((metric, idx) => (
-                <div key={idx} className="glass p-4 rounded-3xl border border-primary/10 hover:border-primary/30 transition-all group">
-                  <div className="text-2xl md:text-3xl font-black text-primary group-hover:scale-110 transition-transform">
-                    {metric.value}<span className="text-sm ml-1 text-highlight">{metric.suffix}</span>
-                  </div>
-                  <div className="text-[9px] md:text-[10px] uppercase font-bold text-muted-foreground tracking-widest mt-1 opacity-70">
-                    {metric.label}
-                  </div>
+              {/* Resume Button - Functional Link */}
+              <a
+                href="/resume.pdf"
+                download="Fared_Mansour_Resume.pdf"
+                className="group relative p-[2px] rounded-full overflow-hidden transition-all duration-500 hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(var(--primary-rgb),0.1)] block"
+              >
+                {/* Orbiting Line 1 */}
+                <div className="absolute inset-[-1000%] animate-[spin_3s_linear_infinite] bg-[conic-gradient(from_0deg,transparent_0%,var(--color-primary)_5%,transparent_10%,transparent_100%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                {/* Orbiting Line 2 (Opposite) */}
+                <div className="absolute inset-[-1000%] animate-[spin_3s_linear_infinite_reverse] bg-[conic-gradient(from_180deg,transparent_0%,var(--color-highlight)_5%,transparent_10%,transparent_100%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+
+                {/* Static Border */}
+                <div className="absolute inset-0 rounded-full border border-white/10 group-hover:opacity-0 transition-opacity" />
+
+                <div className="relative px-10 py-4 rounded-full bg-[#0c0a09] flex items-center gap-4 z-10">
+                  <Download size={20} className="text-primary group-hover:animate-bounce" />
+                  <span className="font-black uppercase tracking-[0.2em] text-[13px] text-white">{t('download_resume')}</span>
                 </div>
-              ))}
+              </a>
+
+              {/* Services Button - Functional Scroll */}
+              <button
+                onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
+                className="group relative p-[2px] rounded-full overflow-hidden transition-all duration-500 hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(var(--primary-rgb),0.1)]"
+              >
+                {/* Orbiting Line 1 */}
+                <div className="absolute inset-[-1000%] animate-[spin_3.5s_linear_infinite] bg-[conic-gradient(from_90deg,transparent_0%,var(--color-primary)_5%,transparent_10%,transparent_100%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                {/* Orbiting Line 2 (Opposite) */}
+                <div className="absolute inset-[-1000%] animate-[spin_3.5s_linear_infinite_reverse] bg-[conic-gradient(from_270deg,transparent_0%,var(--color-highlight)_5%,transparent_10%,transparent_100%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+
+                {/* Static Border */}
+                <div className="absolute inset-0 rounded-full border border-white/10 group-hover:opacity-0 transition-opacity" />
+
+                <div className="relative px-10 py-4 rounded-full bg-[#0c0a09] flex items-center gap-4 z-10">
+                  <span className="font-black uppercase tracking-[0.2em] text-[13px] text-white group-hover:text-primary transition-colors">{t('services')}</span>
+                  <ArrowRight size={20} className="text-muted-foreground group-hover:text-primary transition-all group-hover:translate-x-2" />
+                </div>
+              </button>
             </motion.div>
 
             {/* Social Links */}
@@ -216,31 +240,12 @@ export const Hero = () => {
               {/* Image Frame */}
               <div className="relative glass rounded-[40px] p-4 glow-border-gold overflow-hidden border border-primary/20 bg-surface/30 backdrop-blur-2xl">
                 <img
-                  src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800"
+                  src="src/assets/1731683563283.jpg"
                   alt={personal.name}
                   className="w-full aspect-[4/5] object-cover rounded-[32px] grayscale-[30%] hover:grayscale-0 transition-all duration-1000 brightness-90 hover:brightness-100"
                 />
 
-                {/* Interactive Overlay Elements */}
-                <motion.div
-                  animate={{ y: [0, -10, 0] }}
-                  transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-                  className={`absolute -bottom-6 ${language === 'ar' ? '-left-6' : '-right-6'} glass rounded-2xl px-6 py-5 border border-primary/30 shadow-2xl`}
-                >
-                  <div className="flex items-center gap-4">
-                    <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse shadow-[0_0_15px_#22c55e]" />
-                    <span className="text-sm font-bold tracking-wide uppercase">{t('hero_open')}</span>
-                  </div>
-                </motion.div>
-
-                <motion.div
-                  animate={{ y: [0, 10, 0] }}
-                  transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-                  className={`absolute -top-6 ${language === 'ar' ? '-right-6' : '-left-6'} glass rounded-2xl px-6 py-5 border border-primary/30 shadow-2xl`}
-                >
-                  <div className="text-3xl font-black text-primary italic">9+</div>
-                  <div className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest">{t('hero_months')}</div>
-                </motion.div>
+                {/* Interactive Overlay Elements Removed */}
               </div>
             </motion.div>
           </motion.div>
@@ -298,3 +303,5 @@ export const Hero = () => {
     </section>
   );
 };
+
+export default Hero;

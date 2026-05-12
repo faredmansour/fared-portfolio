@@ -1,4 +1,4 @@
-# Mohamed Wael - Personal Portfolio
+# Fared Mansour - Personal Portfolio
 
 This is my personal **portfolio** website built with React, Tailwind CSS, and Vite.  
 It showcases my projects, skills, and experience as a developer.
@@ -28,8 +28,8 @@ It showcases my projects, skills, and experience as a developer.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/MohamedWael78/portfolio_Mohamed_Wael.git
-cd portfolio_Mohamed_Wael
+git clone https://github.com/faredmansour/portfolio_Fared_Mansour.git
+cd portfolio_Fared_Mansour
 ```
 
 ### 2. Install dependencies
@@ -79,5 +79,5 @@ npm run preview
 
 ## 📬 Contact
 
-- GitHub: [MohamedWael78](https://github.com/MohamedWael78)
+- GitHub: [faredmansour](https://github.com/faredmansour)
 - (Add LinkedIn / email here if you want)

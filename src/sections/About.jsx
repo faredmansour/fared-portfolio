@@ -13,7 +13,8 @@ import {
   BookOpen,
   BarChart3,
   Eye,
-  Layers
+  Layers,
+  Cloud
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { fadeIn, staggerContainer } from "../utils/animations";
@@ -130,77 +131,77 @@ export const About = () => {
             </motion.div>
           </div>
 
-          {/* Right Column - Vivid Contextual Visual */}
+          {/* Right Column - Bento Grid Professional Visualization */}
           <motion.div 
             variants={fadeIn("left", 0.5)}
             className="relative"
           >
-            <div className="relative group perspective-1000">
-              {/* Image 1: Engineering/Agriculture Context */}
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 auto-rows-[120px]">
+              {/* Box 1: Large Image - Infrastructure */}
               <motion.div 
-                whileHover={{ rotateY: -15, rotateX: 5, z: 20 }}
-                className="relative z-20 glass rounded-[40px] p-2 border border-primary/30 shadow-2xl overflow-hidden overflow-hidden"
+                whileHover={{ scale: 1.02 }}
+                className="col-span-2 row-span-2 relative glass-strong rounded-3xl overflow-hidden border border-primary/20 group"
               >
-                <img
-                  src="https://images.unsplash.com/photo-1543286386-713bdd54867e?auto=format&fit=crop&q=80&w=800"
-                  alt="Smart Irrigation Context"
-                  className="w-full aspect-square object-cover rounded-[32px] brightness-75 group-hover:brightness-100 transition-all duration-700"
+                <img 
+                  src="/cloud_infra.png" 
+                  alt="Cloud Infrastructure" 
+                  className="w-full h-full object-cover grayscale-[30%] group-hover:grayscale-0 transition-all duration-700"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60" />
-                <div className="absolute bottom-8 left-8">
-                    <div className="flex items-center gap-2 text-primary font-black text-xs uppercase tracking-widest mb-1">
-                        <Microscope size={14} />
-                        Graduation Focus
-                    </div>
-                    <div className="text-2xl font-bold text-foreground">Smart Systems</div>
-                </div>
-              </motion.div>
-
-              {/* Floating Element: AI Overlay */}
-              <motion.div 
-                animate={{ 
-                  y: [0, -30, 0],
-                  rotate: [0, 5, 0] 
-                }}
-                transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute -top-10 -right-10 z-30 w-56 h-56 glass rounded-[30px] p-6 border border-primary/50 shadow-[0_0_50px_rgba(var(--primary-rgb),0.2)] flex flex-col justify-between"
-              >
-                <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center text-black">
-                  <BrainCircuit size={24} />
-                </div>
-                <div className="space-y-2">
-                  <div className="text-xs font-black text-primary uppercase tracking-widest">Training Progress</div>
-                  <div className="h-1.5 w-full bg-foreground/10 rounded-full overflow-hidden">
-                    <motion.div 
-                      initial={{ width: 0 }}
-                      whileInView={{ width: "95%" }}
-                      transition={{ duration: 2, delay: 1 }}
-                      className="h-full bg-gradient-to-r from-primary to-highlight" 
-                    />
-                  </div>
-                  <div className="text-[10px] text-muted-foreground font-bold">Applied AI Specialist Path</div>
-                </div>
-              </motion.div>
-
-              {/* Data Visualization Fragment */}
-              <motion.div 
-                animate={{ 
-                  x: [0, -20, 0],
-                  y: [0, 20, 0] 
-                }}
-                transition={{ duration: 7, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-                className="absolute -bottom-10 -left-10 z-30 glass rounded-3xl p-6 border border-primary/50 shadow-2xl"
-              >
-                <LineChart className="text-primary w-12 h-12" />
-                <div className="mt-4 space-y-1">
-                   <div className="flex gap-1">
-                     <span className="w-2 h-4 bg-primary/20 rounded-sm" />
-                     <span className="w-2 h-6 bg-primary/40 rounded-sm" />
-                     <span className="w-2 h-8 bg-primary rounded-sm shadow-[0_0_10px_rgba(var(--primary-rgb),0.8)]" />
-                     <span className="w-2 h-5 bg-primary/20 rounded-sm" />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent" />
+                <div className="absolute bottom-6 left-6">
+                   <div className="flex items-center gap-2 text-primary font-black text-[10px] uppercase tracking-widest mb-1">
+                      <Cloud size={14} />
+                      Cloud Native
                    </div>
-                   <div className="text-[10px] font-black text-primary uppercase">Analytics</div>
+                   <div className="text-xl font-bold text-foreground">Infrastructure Architect</div>
                 </div>
+              </motion.div>
+
+              {/* Box 2: Metric - Experience */}
+              <motion.div 
+                whileHover={{ y: -5 }}
+                className="glass p-6 rounded-3xl border border-highlight/10 flex flex-col justify-center items-center text-center group"
+              >
+                <div className="text-3xl font-black text-highlight group-hover:scale-110 transition-transform">3+</div>
+                <div className="text-[8px] font-black uppercase text-muted-foreground tracking-widest mt-1">Years Exp</div>
+              </motion.div>
+
+              {/* Box 3: Metric - Projects */}
+              <motion.div 
+                whileHover={{ y: -5 }}
+                className="glass p-6 rounded-3xl border border-primary/10 flex flex-col justify-center items-center text-center group"
+              >
+                <div className="text-3xl font-black text-primary group-hover:scale-110 transition-transform">50+</div>
+                <div className="text-[8px] font-black uppercase text-muted-foreground tracking-widest mt-1">Projects</div>
+              </motion.div>
+
+              {/* Box 4: Medium Image - Pipeline */}
+              <motion.div 
+                whileHover={{ scale: 1.02 }}
+                className="col-span-2 row-span-1 relative glass-strong rounded-3xl overflow-hidden border border-highlight/20 group"
+              >
+                <img 
+                  src="/devops_pipeline.png" 
+                  alt="DevOps Pipeline" 
+                  className="w-full h-full object-cover brightness-50 group-hover:brightness-75 transition-all duration-700"
+                />
+                <div className="absolute inset-0 flex items-center justify-between px-8">
+                   <div>
+                      <div className="text-xs font-black text-highlight uppercase tracking-widest">CI/CD Mastery</div>
+                      <div className="text-[9px] text-muted-foreground font-mono mt-1">Automated Workflows</div>
+                   </div>
+                   <Zap className="text-highlight animate-pulse" size={24} />
+                </div>
+              </motion.div>
+
+              {/* Box 5: Status / Availability */}
+              <motion.div 
+                whileHover={{ y: -5 }}
+                className="glass p-6 rounded-3xl border border-green-500/10 flex flex-col justify-center items-center text-center group"
+              >
+                <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse mb-3" />
+                <div className="text-[8px] font-black uppercase text-green-500 tracking-widest">Status</div>
+                <div className="text-[10px] font-bold text-foreground mt-1">Ready for Hire</div>
               </motion.div>
             </div>
           </motion.div>
